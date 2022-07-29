@@ -6,4 +6,10 @@ def main(list1):
     Returns:
         list: return answer
     """
-    return
+    list = []
+    for i in list1:
+        if i == 0:
+            list += [0]
+        else:
+            list += [True]
+    return list

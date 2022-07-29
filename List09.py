@@ -6,4 +6,10 @@ def main(list1):
     Returns:
         bool: return answer
     """
-    return
+    m = list1[0]
+    for i in list1:
+        if i == m:
+            m = i
+        else:
+            return 0>1
+    return 1>0
